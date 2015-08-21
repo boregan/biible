@@ -1,0 +1,199 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+@font-face {
+  font-family: 'SourceCode';
+  src: url('../font/SourceCodePro-Light.otf');
+}
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: 'SourceCode';
+  font-weight: 300;
+  font-size: 14px/1.5;
+  color: #333;
+  background: #eeeeee;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: 'liga', 'kern';
+     -moz-font-feature-settings: 'liga', 'kern';
+          font-feature-settings: 'liga', 'kern';
+}
+.main-header {
+  height: 100%;
+  width: 100%;
+  min-height: 450px;
+  text-align: center;
+  background: #eeeeee;
+}
+.main-header-content {
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.logo {
+  max-width: 40vh;
+  max-height: 40vh;
+}
+.main-header-text {
+  width: 90vw;
+  -webkit-animation: fadein 2s;
+  -ms-animation: fadein 2s;
+  animation: fadein 2s;
+  margin-bottom: 60px;
+  font-size: 41px;
+  font-weight: 300;
+  line-height: 60px;
+  font-family: 'SourceCode';
+}
+.main-header-btn {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  color: inherit;
+  padding: 15px 20px 16px;
+  vertical-align: top;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 3px;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-animation: fadein 2s;
+  -ms-animation: fadein 2s;
+  animation: fadein 2s;
+  text-shadow: none;
+  color: #333;
+  background-color: #fff;
+  font-size: 22px;
+  font-family: 'SourceCode';
+}
+.main-header-btn:hover {
+  background: #eeeeee;
+  -webkit-transition: all ease 0.7s;
+  -moz-transition: all ease 0.7s;
+  -o-transition: all ease 0.7s;
+  -ms-transition: all ease 0.7s ;
+  transition: all ease 0.5s ;
+}
+
+#foot {
+	width:100%;
+  height:80px;
+  background-attachment: fixed;
+  bottom: 0pt;
+  left: 0pt;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+#foot h5 {
+  line-height: 24px;
+	font-family: 'SourceCode';
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+  to {
+    opacity: 1;
+    -ms-filter: none;
+    -webkit-filter: none;
+            filter: none;
+  }
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+  to {
+    opacity: 1;
+    -ms-filter: none;
+    -webkit-filter: none;
+            filter: none;
+  }
+}
