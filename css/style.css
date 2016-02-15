@@ -1,199 +1,124 @@
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-weight: inherit;
-  font-style: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-}
 @font-face {
-  font-family: 'SourceCode';
-  src: url('../font/SourceCodePro-Light.otf');
+ font-family: 'MavenPro';
+ src: url('../font/Forum-Regular.ttf');
 }
-body {
-  line-height: 1;
+
+@font-face {
+ font-family: 'Bariol';
+ src: url('../font/Bariol_Regular.otf');
+}
+
+html {
+    height: 100%
+}
+
+#headerwrap {
+  background: linear-gradient(60deg, rgba(0,0,0,0.666) 35%, rgba(0,0,0,0.333) 90%), url(http://manage.only5c.xyz/only5c.png) no-repeat center center fixed;
+  display: flex;
+  align-items: center;
+	background-attachment: relative;
+	background-position: center center;
+  	min-height: 100vh;
+	width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+  font-family: 'Bariol';
+  font-weight: bold;
+  text-transform: none;
+	color: white;
+	font-size: 45px;
+	letter-spacing: 2.5px;
+  text-shadow: 1px 1px 1px #000,
+               .2px .2px .2px black;
+}
+
+.icon {
+  width: 320px;
+  height: 320px;
+}
+
+@media (max-width: 481px) {
+  .icon {
+    width: 250px;
+    height: 250px;
+  }
+  #headerwrap {
+    min-height: 54rem;
+  }
+}
+
+.centered {
+    text-align: center;
+}
+
+.border {
+	z-index:9999;
+	position: fixed;
+	display: block;
+	background: white;
+}
+
+.border-top {
+	height: 13px;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+.border-bottom {
+	height: 13px;
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+}
+
+.border-right {
+	width: 13px;
+	height: 100%;
+	right: 0px;
+	top: 0px;
+}
+
+.border-left {
+	width: 13px;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+}
+
+a.button {
+  border: 2.3px solid #000;
+  background-color: white;
   color: #000;
-  background: #fff;
-}
-html,
-body {
-  height: 100%;
-  width: 100%;
-}
-body {
-  font-family: 'SourceCode';
-  font-weight: 300;
-  font-size: 14px/1.5;
-  color: #333;
-  background: #eeeeee;
-  -webkit-text-size-adjust: 100%;
+  padding: 8px 80px;
+  font-size: 18px;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  -webkit-font-feature-settings: 'liga', 'kern';
-     -moz-font-feature-settings: 'liga', 'kern';
-          font-feature-settings: 'liga', 'kern';
-}
-.main-header {
-  height: 100%;
-  width: 100%;
-  min-height: 450px;
+  letter-spacing: .5px;
+  transition: all 0.25s ease;
+  font-family: 'MavenPro';
   text-align: center;
-  background: #eeeeee;
-}
-.main-header-content {
-  position: absolute;
-  -webkit-transform-style: preserve-3d;
-  -o-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-.logo {
-  max-width: 40vh;
-  max-height: 40vh;
-}
-.main-header-text {
-  width: 90vw;
-  -webkit-animation: fadein 2s;
-  -ms-animation: fadein 2s;
-  animation: fadein 2s;
-  margin-bottom: 60px;
-  font-size: 41px;
-  font-weight: 300;
-  line-height: 60px;
-  font-family: 'SourceCode';
-}
-.main-header-btn {
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-  color: inherit;
-  padding: 15px 20px 16px;
-  vertical-align: top;
-  cursor: pointer;
-  border: 1px solid black;
-  border-radius: 3px;
-  text-decoration: none;
-  -webkit-tap-highlight-color: transparent;
-  -webkit-animation: fadein 2s;
-  -ms-animation: fadein 2s;
-  animation: fadein 2s;
-  text-shadow: none;
-  color: #333;
-  background-color: #fff;
-  font-size: 22px;
-  font-family: 'SourceCode';
-}
-.main-header-btn:hover {
-  background: #eeeeee;
-  -webkit-transition: all ease 0.7s;
-  -moz-transition: all ease 0.7s;
-  -o-transition: all ease 0.7s;
-  -ms-transition: all ease 0.7s ;
-  transition: all ease 0.5s ;
+  display: inline-block;
+  margin: 4.5vh;
 }
 
-#foot {
-	width:100%;
-  height:80px;
-  background-attachment: fixed;
-  bottom: 0pt;
-  left: 0pt;
-	padding-top: 20px;
-	padding-bottom: 40px;
-	text-align: center;
-}
-
-#foot h5 {
-  line-height: 24px;
-	font-family: 'SourceCode';
-}
-
-@-webkit-keyframes fadein {
-  from {
-    opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-  }
-  to {
-    opacity: 1;
-    -ms-filter: none;
-    -webkit-filter: none;
-            filter: none;
-  }
-}
-@keyframes fadein {
-  from {
-    opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-  }
-  to {
-    opacity: 1;
-    -ms-filter: none;
-    -webkit-filter: none;
-            filter: none;
-  }
+a.button:hover {
+  color: #fff;
+  background-color: #222;
+  border-color: #222;
+  -webkit-transition: color 0.175s ease-in, background 0.175s ease-in;
+  -moz-transition: color 0.175s ease-in, background 0.175s ease-in;
+  -ms-transition: color 0.175s ease-in, background 0.175s ease-in;
+  -o-transition: color 0.175s ease-in, background 0.175s ease-in;
+  transition: color 0.175s ease-in, background 0.175s ease-in;
 }
