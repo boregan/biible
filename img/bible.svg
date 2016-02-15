@@ -1,0 +1,181 @@
+<svg width="192" height="192" version="2.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>bible</title>
+<desc>Created using Figma (9000)</desc>
+<g id="Canvas" transform="translate(112 281)" figma:type="canvas">
+<mask id="mask0_outline" mask-type="alpha">
+<path d="
+M -112 -281
+L 80 -281
+L 80 -89
+L -112 -89
+L -112 -281
+Z" fill="#FFFFFF"/>
+</mask>
+<g id="bible" style="mix-blend-mode:normal;" mask="url(#mask0_outline)" figma:type="frame">
+<g id="Group" style="mix-blend-mode:normal;" figma:type="group">
+<g id="Rectangle" style="mix-blend-mode:normal;" filter="url(#filter0_d)" figma:type="vector">
+<use xlink:href="#path0_fill" transform="translate(-80 -273)" fill="#303030" style="mix-blend-mode:normal;"/>
+</g>
+<mask id="mask1_alpha" mask-type="alpha">
+<g id="Rectangle" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path0_fill" transform="translate(-80 -273)" fill="#303030" style="mix-blend-mode:normal;"/>
+</g>
+</mask>
+<g id="Rectangle 4" style="mix-blend-mode:normal;" mask="url(#mask1_alpha)" filter="url(#filter1_dd)" figma:type="vector">
+<use xlink:href="#path1_fill" transform="translate(-5 -273)" fill="#D3445A" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 3" style="mix-blend-mode:normal;" mask="url(#mask1_alpha)" figma:type="vector">
+<use xlink:href="#path2_fill" transform="translate(-34.7 -218.7)" fill="url(#paint3_linear)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="spine" style="mix-blend-mode:normal;" mask="url(#mask1_alpha)" figma:type="vector">
+<use xlink:href="#path3_fill" transform="translate(-80 -273)" fill="#1A1A1A" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Union" style="mix-blend-mode:normal;" mask="url(#mask1_alpha)" filter="url(#filter2_ddi)" figma:type="vector">
+<use xlink:href="#path4_fill" transform="translate(-35 -219)" fill="#F5F5F5" style="mix-blend-mode:normal;"/>
+</g>
+<g id="finish lighting" style="mix-blend-mode:normal;" mask="url(#mask1_alpha)" filter="url(#filter3_ii)" figma:type="rounded-rectangle">
+<use xlink:href="#path0_fill" transform="translate(-80 -273)" fill="url(#paint6_radial)" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="-84" y="-273" width="136" height="184" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<desc>type="dropShadow" x="0" y="4" size="4" spread="0" color="0,0,0,0.25" blend="normal"</desc>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<filter id="filter1_dd" filterUnits="userSpaceOnUse" x="-9" y="-273" width="40" height="42" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<desc>type="dropShadow" x="0" y="4" size="4" spread="0" color="0,0,0,0.1" blend="normal"</desc>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<desc>type="dropShadow" x="0" y="1" size="0" spread="0" color="0,0,0,0.1" blend="normal"</desc>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="1"/>
+<feGaussianBlur stdDeviation="0"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow" result="effect2_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape"/>
+</filter>
+<filter id="filter2_ddi" filterUnits="userSpaceOnUse" x="-39" y="-219" width="58" height="74" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<desc>type="dropShadow" x="0" y="4" size="4" spread="0" color="0,0,0,0.1" blend="normal"</desc>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<desc>type="dropShadow" x="0" y="1" size="0" spread="0" color="0,0,0,0.2" blend="normal"</desc>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="1"/>
+<feGaussianBlur stdDeviation="0"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow" result="effect2_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape"/>
+<desc>type="innerShadow" x="0" y="1" size="0" spread="0" color="1,1,1,1" blend="normal"</desc>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0" result="hardAlpha"/>
+<feOffset dx="0" dy="1"/>
+<feGaussianBlur stdDeviation="0"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect3_innerShadow"/>
+</filter>
+<filter id="filter3_ii" filterUnits="userSpaceOnUse" x="-80" y="-273" width="128" height="176" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<desc>type="innerShadow" x="0" y="1" size="0" spread="0" color="1,1,1,0.25" blend="normal"</desc>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0" result="hardAlpha"/>
+<feOffset dx="0" dy="1"/>
+<feGaussianBlur stdDeviation="0"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
+<desc>type="innerShadow" x="0" y="-1" size="0" spread="0" color="0,0,0,0.25" blend="normal"</desc>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0" result="hardAlpha"/>
+<feOffset dx="0" dy="-1"/>
+<feGaussianBlur stdDeviation="0"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="effect1_innerShadow" result="effect2_innerShadow"/>
+</filter>
+<linearGradient id="paint3_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(49.5 49.5 -52.3347 46.3975 55.8673 -23.1987)">
+<stop offset="0" stop-color="#000000" stop-opacity="0.3"/>
+<stop offset="1" stop-color="#000000" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="paint6_radial" cx="0.5" cy="0.5" r="0.5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(328 328 -210.984 413.103 -78.0081 -365.551)">
+<stop offset="0" stop-color="#FFFFFF" stop-opacity="0.2"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+</radialGradient>
+<path id="path0_fill" d="
+M 0 12
+C 0 5.37258 5.37258 0 12 0
+L 116 0
+C 122.627 0 128 5.37258 128 12
+L 128 164
+C 128 170.627 122.627 176 116 176
+L 12 176
+C 5.37258 176 0 170.627 0 164
+L 0 12
+Z"/>
+<path id="path1_fill" d="
+M 0 0
+L 32 0
+L 32 34
+L 16 24
+L 0 34
+L 0 0
+Z"/>
+<path id="path2_fill" d="
+M 29.4 0
+L 82.7 53
+L 82.7 121.7
+L 76.4 121.7
+L 20 65.4
+L 20.2 49.2
+L 0 29.4
+L 23.218 23.218
+L 29.4 0
+Z"/>
+<path id="path3_fill" d="
+M 0 12
+C 0 5.37258 5.37258 0 12 0
+L 24 0
+L 24 176
+L 12 176
+C 5.37258 176 0 170.627 0 164
+L 0 12
+Z"/>
+<path id="path4_fill" d="
+M 50 29
+L 50 21
+C 50 20.4477 49.5523 20 49 20
+L 30 20
+L 30 1
+C 30 0.447715 29.5523 0 29 0
+L 21 0
+C 20.4477 0 20 0.447715 20 1
+L 20 20
+L 1 20
+C 0.447715 20 0 20.4477 0 21
+L 0 29
+C 0 29.5523 0.447715 30 1 30
+L 20 30
+L 20 65
+C 20 65.5523 20.4477 66 21 66
+L 29 66
+C 29.5523 66 30 65.5523 30 65
+L 30 30
+L 49 30
+C 49.5523 30 50 29.5523 50 29
+Z"/>
+</defs>
+</svg>
