@@ -11,6 +11,32 @@
 html {
     height: 100%
 }
+a.button {
+  border: 2.3px solid #000;
+  background-color: white;
+  color: #000;
+  padding: 8px 80px;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: .5px;
+  transition: all 0.25s ease;
+  font-family: 'MavenPro';
+  text-align: center;
+  display: inline-block;
+  margin: 4.5vh;
+}
+
+a.button:hover {
+  color: #fff;
+  background-color: #222;
+  border-color: #222;
+  -webkit-transition: color 0.175s ease-in, background 0.175s ease-in;
+  -moz-transition: color 0.175s ease-in, background 0.175s ease-in;
+  -ms-transition: color 0.175s ease-in, background 0.175s ease-in;
+  -o-transition: color 0.175s ease-in, background 0.175s ease-in;
+  transition: color 0.175s ease-in, background 0.175s ease-in;
+}
+
 
 #headerwrap {
   background: linear-gradient(60deg, rgba(0,0,0,0.666) 35%, rgba(0,0,0,0.333) 90%), url(http://manage.only5c.xyz/only5c.png) no-repeat center center fixed;
@@ -53,8 +79,19 @@ html {
     width: 250px;
     height: 250px;
   }
-  #headerwrap {
-    min-height: 54rem;
+  a.button {
+    border: 2.3px solid #000;
+    background-color: white;
+    color: #000;
+    padding: 8px 15vw;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: .5px;
+    transition: all 0.25s ease;
+    font-family: 'MavenPro';
+    text-align: center;
+    display: inline-block;
+    margin: 4.5vh;
   }
 }
 
@@ -95,30 +132,4 @@ html {
 	height: 100%;
 	left: 0px;
 	top: 0px;
-}
-
-a.button {
-  border: 2.3px solid #000;
-  background-color: white;
-  color: #000;
-  padding: 8px 80px;
-  font-size: 18px;
-  -webkit-font-smoothing: antialiased;
-  letter-spacing: .5px;
-  transition: all 0.25s ease;
-  font-family: 'MavenPro';
-  text-align: center;
-  display: inline-block;
-  margin: 4.5vh;
-}
-
-a.button:hover {
-  color: #fff;
-  background-color: #222;
-  border-color: #222;
-  -webkit-transition: color 0.175s ease-in, background 0.175s ease-in;
-  -moz-transition: color 0.175s ease-in, background 0.175s ease-in;
-  -ms-transition: color 0.175s ease-in, background 0.175s ease-in;
-  -o-transition: color 0.175s ease-in, background 0.175s ease-in;
-  transition: color 0.175s ease-in, background 0.175s ease-in;
 }
